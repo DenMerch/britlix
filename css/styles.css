@@ -1,4 +1,18 @@
 
+:root {
+  --primary-text-color: #8f95a5;
+  --title-text-color: #000000;
+  --background-color: #ffffff;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0;
+
+
 
 .modal {
     width: 528px;
@@ -53,38 +67,37 @@
     --primary-text-color: #8F95A5;
     --title-text-color:#000000;
     --background-color:#ffffff;
-}
-body{
-    font-family: 'Poppins', sans-serif;
-    color:var(--primary-text-color);
-    background-color:#ffffff;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0;
-    }
 
+}
 
-h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
-ul, ol{
-    margin: 0;
-    padding-left: 0;
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
-.section{
-    padding: 180px 0;
+.section {
+  padding: 180px 0;
 }
-.container{
-    width: 1338px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px 0 15px;
+.container {
+  width: 1338px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px 0 15px;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 /* header bogdan */
 
@@ -119,10 +132,87 @@ a{
 /* pricing yevgen */
 
 /* contacts Denys */
+.contacts-header {
+  color: #000;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+}
 
+.contacts-container {
+  display: flex;
+}
 
+.auth {
+  display: flex;
+}
+
+.contacts-image {
+  margin-right: 144px;
+}
+
+.contacts-paragraph {
+  width: 654px;
+  height: 90px;
+
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #8f95a5;
+}
+
+.contacts-button {
+  cursor: pointer;
+  min-width: 312px;
+  min-height: 70px;
+  border-radius: 10px;
+
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  background-color: #263238;
+}
 
 /* footer den */
+
+.footer-container {
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  height: 99px;
+}
+.logo {
+  color: #000000;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.5em;
+}
+.logo-color {
+  color: #939393;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.5em;
+}
+.footer-list-item {
+  display: flex;
+  gap: 80px;
+  margin-left: auto;
+}
+.footer-list {
+  color: #939393;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5em;
+}
+
 .footer-container{
     margin-top: 22px;
 display: flex;
@@ -153,4 +243,5 @@ height: 99px;
         line-height: 1.5em;
 
 }
+
 
