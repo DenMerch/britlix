@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Document</title>
   </head>
 
@@ -14,12 +15,14 @@
     <main>
 
         <!-- hero nikita -->
-        <section class="hero">
+        <section class="hero container">
+            <div class="wrap">
             <h1 class="title">Learn Any Foreign Language</h1>
             <p>With our teachers who write a program for each student, you will be able to make your first sketch after the
                 first lesson.</p>
-            <button type="button" class="button">Get started</button>
-            <img src="./img/learning-languages.jpg" alt="girl learning languages" width="654" />
+            <button type="button" class="button" data-modal-open>Get started</button>
+            </div>
+            <img src="./img/learning-languages.jpg" alt="girl learning languages" width="654" class="main-image"/>
         </section>
         <!-- scils dima -->
         <section>
@@ -126,7 +129,12 @@
 </div>
 
     </footer>
-
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" data-modal-close></button>   
+        </div>
+    </div>
+<script src="./js/modal.js"></script>
 </body>
 
 </html>

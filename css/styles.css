@@ -1,0 +1,50 @@
+.modal {
+    width: 528px;
+    height: 581px;
+    background-color: red;
+    border-radius: 4px;
+    
+
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.backdrop {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 1;
+}
+.backdrop.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+.hero {
+    display: flex;
+}
+.button {
+    width: 426px;
+    height: 100px;
+    margin: 23px 64px;
+    background: #263238;
+    border-radius: 10px;
+    display: block;
+
+    font-family: 'Poppins';
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.wrap {
+    display: block;
+    width: 540px;
+    height: 548px;
+}
