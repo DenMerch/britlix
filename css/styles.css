@@ -27,9 +27,7 @@
     opacity: 0;
     pointer-events: none;
 }
-.hero {
-    display: flex;
-}
+
 .button {
     width: 426px;
     height: 100px;
@@ -48,7 +46,7 @@
     display: block;
     width: 540px;
     height: 548px;
-
+}
 :root{
     --primary-text-color: #8F95A5;
     --title-text-color:#000000;
