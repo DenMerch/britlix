@@ -1,3 +1,4 @@
+
 .modal {
     width: 528px;
     height: 581px;
@@ -47,4 +48,88 @@
     display: block;
     width: 540px;
     height: 548px;
+
+:root{
+    --primary-text-color: #8F95A5;
+    --title-text-color:#000000;
+    --background-color:#ffffff;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color:var(--primary-text-color);
+    background-color:#ffffff;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    }
+
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+ul, ol{
+    margin: 0;
+    padding-left: 0;
+}
+li{
+    list-style: none;
+}
+.section{
+    padding: 180px 0;
+}
+.container{
+    width: 1338px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px 0 15px;
+}
+a{
+    text-decoration: none;
+}
+/* header bogdan */
+
+/* main */
+
+/* hero nikita */
+
+/* scils dima */
+
+/* about sasha */
+
+/* pricing yevgen */
+
+/* contacts Denys */
+
+
+
+/* footer den */
+.footer-container{
+    margin-top: 22px;
+display: flex;
+align-items: center;
+height: 99px;
+}
+.logo{
+    color: #000000;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.5em;
+}
+.logo-color{
+    color: #939393;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 1.5em;
+}
+.footer-list-item{
+    display: flex;
+    gap:80px;
+    margin-left: auto;
+}
+.footer-list{
+    color: #939393;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1.5em;
+
 }
